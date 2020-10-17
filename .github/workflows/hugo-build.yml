@@ -1,0 +1,30 @@
+name: Hugo Build
+
+on:
+  pull_request:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the Repository
+        uses: actions/checkout@v2
+        with:
+          submodules: 'recursive'
+
+      - name: Build Hugo Site
+        uses: crazy-max/ghaction-hugo@v1
+        with:
+          version: latest
+          extended: true
+          args: --cleanDestinationDir --minify --verbose
+
+      - name: Deploy to GitHub Pages
+        if: success() && github.event_name != 'pull_request'
+        uses: crazy-max/ghaction-github-pages@v2
+        with:
+          target_branch: gh-pages
+          build_dir: public
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
