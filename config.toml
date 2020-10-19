@@ -19,6 +19,8 @@ theme = "learn"
   disableMermaid = true
   disableNextPrev = false
   themeVariant = "blue"
+  
+  custom_css = ["css/sidebar.css"]
 
 # Search Functionality
 [outputs]
