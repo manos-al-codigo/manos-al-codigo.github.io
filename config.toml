@@ -1,4 +1,25 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+# Main Config
+baseURL = "https://manos-al-codigo.github.io/"
+languageCode = "es-es"
+title = "Manos al Código"
 theme = "learn"
+
+# Theme Specifics
+[params]
+  editURL = ""
+  author = "Manos al Código"
+  description = "Un sitio para aprender a programar de la Escuela Fiscal Mixta Fray Jodoco Ricke."
+  showVisitedLinks = false
+  disableSearch = false
+  disableAssetsBusting = false
+  disableInlineCopyToClipboard = true
+  disableShortcutsTitle = false
+  disableLanguageSwitchingButton = true
+  disableBreadcrumb = false
+  disableMermaid = true
+  disableNextPrev = false
+  themeVariant = "blue"
+
+# Search Functionality
+[outputs]
+  home = [ "HTML", "RSS", "JSON"]
