@@ -1,0 +1,35 @@
+# Main Config
+baseURL = "https://manos-al-codigo.github.io/"
+languageCode = "es-es"
+title = "Manos al Código"
+theme = "learn"
+defaultContentLanguage = "es"
+
+# Theme Specifics
+[params]
+  editURL = ""
+  author = "Manos al Código"
+  description = "Un sitio para aprender a programar de la Escuela Fiscal Mixta Fray Jodoco Ricke."
+  showVisitedLinks = false
+  disableSearch = false
+  disableAssetsBusting = false
+  disableInlineCopyToClipboard = true
+  disableShortcutsTitle = false
+  disableLanguageSwitchingButton = true
+  disableBreadcrumb = false
+  disableMermaid = true
+  disableNextPrev = false
+  themeVariant = "blue"
+  
+  custom_css = ["css/sidebar.css", "css/misc.css"]
+
+# Search Functionality
+[outputs]
+  home = [ "HTML", "RSS", "JSON"]
+
+# Sidebar Links
+[[menu.shortcuts]] 
+  name = "<i class='icon fab fa-github'></i> GitHub Organization"
+  identifier = "github-org"
+  url = "https://github.com/manos-al-codigo"
+  weight = 1
