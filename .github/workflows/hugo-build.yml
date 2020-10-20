@@ -20,6 +20,8 @@ jobs:
           version: latest
           extended: true
           args: --cleanDestinationDir --minify --verbose
+        env:
+          HUGO_GOOGLEANALYTICS: ${{ secrets.GA_TRACKING_ID }}
 
       - name: Deploy to GitHub Pages
         if: success() && github.event_name != 'pull_request'
