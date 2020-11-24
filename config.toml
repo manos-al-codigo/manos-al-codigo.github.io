@@ -21,7 +21,7 @@ defaultContentLanguage = "es"
   disableNextPrev = false
   themeVariant = "blue"
   
-  custom_css = ["css/sidebar.css", "css/misc.css"]
+  custom_css = ["css/sidebar.css", "css/misc.css", "css/overrides.css"]
 
 # Search Functionality
 [outputs]
