@@ -11,4 +11,4 @@ Esta sección contiene la parte principal del curso donde se encuentra el conten
 
 ### Contenido de esta sección
 
-{{% children sort="Weight" description="true" %}}
+{{% children sort="Weight" %}}
