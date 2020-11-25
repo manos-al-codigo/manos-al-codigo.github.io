@@ -11,4 +11,4 @@ Esta sección es una introducción al curso con conceptos básicos de la computa
 
 ### Contenido de esta sección
 
-{{% children sort="Weight" description="true" %}}
+{{% children sort="Weight" %}}

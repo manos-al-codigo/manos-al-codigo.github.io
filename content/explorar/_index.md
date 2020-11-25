@@ -11,4 +11,4 @@ Esta sección contiene información sobre cómo continuar aprendiendo, se provee
 
 ### Contenido de esta sección
 
-{{% children sort="Weight" description="true" %}}
+{{% children sort="Weight" %}}
