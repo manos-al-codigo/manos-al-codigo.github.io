@@ -9,7 +9,7 @@ weight = 1
 
 La computación es la ciencia de las computadoras y estudia su funcionamiento desde lo más adentro hasta lo más de afuera.
 
-Las computadoras de antes nunca fueron tan avanzadas como las que tenemos actualmente, antes ni si quiera tenían pantallas o ratones, tampoco tenían acceso al Internet y uno mismo tenía que programarlas para que puedan servir de algo. 
+Las computadoras de antes nunca fueron tan avanzadas como las que tenemos actualmente, antes ni si quiera tenían pantallas o ratones, tampoco tenían acceso al Internet y uno mismo tenía que programarlas para que puedan servir de algo.
 
 Pero conforme fueron pasando los años, las computadoras se volvieron cada vez más populares, y la gente las compraba cada vez más porque su precio era más barato. Estas máquinas se volvieron más y más poderosas para permitirnos usarlas para navegar en Internet, ver videos en YouTube y Netflix, consultar el Facebook, jugar videojuegos y muchas cosas más.
 
