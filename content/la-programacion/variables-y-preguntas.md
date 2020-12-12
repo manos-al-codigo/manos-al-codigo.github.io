@@ -1,4 +1,4 @@
 +++
 title = "Variables y preguntas"
-weight = 7
+weight = 6
 +++
