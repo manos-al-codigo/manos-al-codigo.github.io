@@ -1,8 +1,8 @@
 +++
 title = "Explorar"
 chapter = true
-weight = 3
-pre = "<b>3. </b>"
+weight = 4
+pre = "<b>4. </b>"
 +++
 
 # Explorar
